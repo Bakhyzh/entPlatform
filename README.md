@@ -100,7 +100,7 @@ Scalable system design
 👨‍💻 Author
 
 Bakhyt Zharkynbek
-Java Backend Developer (in progress)
+Java Backend Developer 
 
 
 ---
