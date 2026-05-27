@@ -4,13 +4,12 @@ services:
   postgres:
     image: postgres:16
     container_name: ent-postgres
-    restart: always
-    environment:
-      POSTGRES_DB: ent_platform
-      POSTGRES_USER: ent_user
-      POSTGRES_PASSWORD: 123456
     ports:
       - "5432:5432"
+    environment:
+      POSTGRES_DB: ent_platform
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
