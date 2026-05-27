@@ -1,0 +1,29 @@
+### Maven ###
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+### Logs ###
+*.log
+
+### OS ###
+.DS_Store
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+
+### VS Code ###
+.vscode/
+
+### Spring Boot ###
+*.env
+application-local.yml
+application-dev.yml
+application-prod.yml
+
+### Build outputs ###
+build/
+out/
+
+### Temporary files ###
+*.tmp
