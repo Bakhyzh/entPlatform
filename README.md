@@ -71,4 +71,76 @@ Admins/Teachers can:
 PostgreSQL is running inside Docker container.
 
 ```bash
+
 docker-compose up -d
+📊 Exam Logic
+Each correct answer = 1 point
+Maximum score = 140
+Score is calculated per test result
+🚧 Current Status
+
+✔ Project initialized
+✔ Database configured (Docker)
+✔ Entity layer created
+✔ Question–Test relation implemented
+
+⏳ Next steps:
+
+Repository layer
+Service layer
+REST API
+JWT authentication
+🔥 Goal
+
+Build a production-level backend system to demonstrate:
+
+Clean architecture
+Real-world business logic
+Scalable system design
+👨‍💻 Author
+
+Bakhyt Zharkynbek
+Java Backend Developer (in progress)
+
+
+---
+
+# 🧠 ПОЧЕМУ README ВАЖЕН
+
+✔ это твой GitHub портфолио  
+✔ HR смотрят это первым  
+✔ показывает что ты понимаешь проект  
+✔ делает тебя “senior-looking” даже на junior уровне  
+
+---
+
+# 🚀 СЛЕДУЮЩИЙ ШАГ
+
+Теперь у тебя есть:
+
+✔ проект  
+✔ docker DB  
+✔ entity layer  
+✔ README  
+
+---
+
+## 👉 ДАЛЬШЕ ПРАВИЛЬНО:
+
+👉 **repository layer**
+
+Я начну тебе делать:
+- UserRepository
+- QuestionRepository
+- TestRepository
+- ResultRepository
+- MistakeRepository
+
+и потом:
+🔥 первый рабочий API
+
+---
+
+# 💬 НАПИШИ:
+
+👉 **“:contentReference[oaicite:0]{index=0}”**
