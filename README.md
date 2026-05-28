@@ -1,4 +1,4 @@
-#  ENT Platform (Java Backend Project)
+#  ENT Platform 
 
 A backend system for preparing for the Kazakhstan Unified National Test (ENT / ЕНТ).
 
