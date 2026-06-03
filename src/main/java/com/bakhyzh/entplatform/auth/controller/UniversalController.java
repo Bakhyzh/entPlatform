@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -12,7 +13,8 @@ import java.util.List;
 public class UniversalController {
     @GetMapping("/")
     public ResponseEntity<List<String>> getall(){
-        return null;
+        List<String> lists = new ArrayList<>();
+        return lists;
     }
 
 }
