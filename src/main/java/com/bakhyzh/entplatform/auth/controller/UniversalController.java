@@ -14,7 +14,7 @@ public class UniversalController {
     @GetMapping("/")
     public ResponseEntity<List<String>> getall(){
         List<String> lists = new ArrayList<>();
-        return lists;
+        return ResponseEntity.ok(lists);
     }
 
 }
