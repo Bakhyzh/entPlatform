@@ -15,7 +15,6 @@ public class UniversalController {
     public ResponseEntity<List<String>> getall(){
         List<String> lists = new ArrayList<>();
         return ResponseEntity.ok(lists);
-
     }
 
 }
