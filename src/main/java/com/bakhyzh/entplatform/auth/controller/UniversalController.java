@@ -24,8 +24,8 @@ public class UniversalController {
         return ResponseEntity.ok(lists.get(id));
     }
     @PostMapping("/create")
-    public ResponseEntity<Map<String,String>> createQuestion(@RequestBody Map<String,String> requestBody){
-        Question question = resultService.saveResult();
+    public ResponseEntity<Map<String,Question>> createQuestion(@RequestBody Map<String,Question> requestBody){
+        Question question = resultService.saveResult(requestBody.get("UUID"),);
     }
 
 }
